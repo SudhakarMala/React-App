@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+//import { LoginBootstrap } from './components/LoginBootstrap';
+import { FlipkartIndex } from './components/FlipKart/flipkart-index';
+//import {Login} from './components/Login'
+import {Object1} from './Practice/JS-Objects/Object1'
+import {DataBinding} from './Practice/DataBinding'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <DataBinding />
   </React.StrictMode>
 );
 

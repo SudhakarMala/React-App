@@ -1,0 +1,29 @@
+form{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.btn_login{
+    background-color: rgb(29, 40, 12);
+    color: white;
+    border-radius: 10px;
+}
+dl{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
