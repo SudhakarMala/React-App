@@ -13,7 +13,7 @@ import {DataBinding} from './Practice/DataBinding'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DataBinding />
+    <FlipkartIndex />
   </React.StrictMode>
 );
 
